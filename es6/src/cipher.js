@@ -1,7 +1,6 @@
 export class Cipher {
-  var number;
-  encrypt(str) { return str+number;}
-  decrypt(str) { return str-number;}
+  encrypt(str) { return str+this.number;}
+  decrypt(str) { return str-this.number;}
 
 }
 
